@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/hintergrund">
+  
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:paddingLeft="25dp"
+  android:paddingRight="25dp"
+  android:orientation="vertical"
+  >
+  
+	<TextView 
+	    android:text="@string/tickerEditSpielzeit" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/btnEditSpielzeit"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />	
+	
+	<TextView 
+	    android:text="@string/tickerEditAktion" 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/btnEditAktion"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />	
+	
+    <TextView 
+	    android:text="@string/tickerEditSpieler" 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/btnEditSpieler"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />	
+    
+    <TextView 
+	    android:text="@string/tickerAktionWurfecke" 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/btnEditWurfecke"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />	
+    
+    <TextView 
+	    android:text="@string/tickerAktionWurfposition" 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/btnEditWurfposition"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />	
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_marginTop="40dp"
+    > 
+        
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        >
+        	
+        	<Button 
+        		android:id="@+id/save"
+        		android:background="@drawable/kleingruen"
+        		android:layout_width="fill_parent"
+        		android:layout_height="37dp"
+        		android:text="@string/speichern"
+        		android:textColor="@android:color/white"
+        		android:textSize="15dip" 
+        		android:layout_weight="1"
+        		android:layout_marginRight="10dp"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/delete"
+        		android:background="@drawable/kleinrot"
+        		android:layout_width="fill_parent"
+        		android:layout_height="37dp"
+        		android:text="@string/loeschen"
+        		android:textColor="@android:color/white"
+        		android:textSize="15dip" 
+        		android:layout_weight="1"
+        		android:layout_marginLeft="10dp"
+    		/>
+        
+        </TableRow>
+        
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>

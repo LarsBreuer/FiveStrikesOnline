@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/hintergrund">
+  
+<LinearLayout 
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:paddingLeft="5dp"
+  android:paddingRight="5dp"
+  android:orientation="vertical"
+  android:background="@drawable/hintergrund">
+
+    <TextView 
+	    android:text="@string/tickerAktionWurfecke" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+        
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+    > 
+        
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/fehl_ooll"
+        		android:background="@drawable/fehl_ooll"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginRight="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_ool"
+        		android:background="@drawable/fehl_ool"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+				android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_oom"
+        		android:background="@drawable/fehl_oom"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_oor"
+        		android:background="@drawable/fehl_oor"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_oorr"
+        		android:background="@drawable/fehl_oorr"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        
+    	</TableRow>
+
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/fehl_oll"
+        		android:background="@drawable/fehl_oll"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginRight="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_ol"
+        		android:background="@drawable/fehl_ol"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+				android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_om"
+        		android:background="@drawable/fehl_om"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_or"
+        		android:background="@drawable/fehl_or"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_orr"
+        		android:background="@drawable/fehl_orr"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        
+    	</TableRow>
+    	
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/fehl_mll"
+        		android:background="@drawable/fehl_mll"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginRight="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_ml"
+        		android:background="@drawable/fehl_ml"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+				android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_mm"
+        		android:background="@drawable/fehl_mm"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_mr"
+        		android:background="@drawable/fehl_mr"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_mrr"
+        		android:background="@drawable/fehl_mrr"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        
+    	</TableRow>
+
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/fehl_ull"
+        		android:background="@drawable/fehl_ull"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginRight="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_ul"
+        		android:background="@drawable/fehl_ul"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+				android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_um"
+        		android:background="@drawable/fehl_um"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_ur"
+        		android:background="@drawable/fehl_ur"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/fehl_urr"
+        		android:background="@drawable/fehl_urr"
+        		android:layout_width="60dp"
+        		android:layout_height="40dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        
+    	</TableRow>
+    		
+    </TableLayout>
+    
+</LinearLayout>
+</ScrollView>

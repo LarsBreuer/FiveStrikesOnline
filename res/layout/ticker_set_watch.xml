@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+	<TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tickerMSGBoxSpielzeit"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center_horizontal" />
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:paddingLeft="70dp"
+		android:paddingRight="70dp"
+    	android:orientation="horizontal" 
+    	android:gravity="center_vertical">
+    
+    	<EditText
+        	android:id="@+id/setStopWatchMinutes"
+        	android:inputType="phone"
+	    	android:maxLength="2"
+        	android:layout_width="50dip"
+        	android:layout_height="50dip"
+        	android:layout_alignParentLeft="true" >
+
+        	<requestFocus />
+    	</EditText>
+    	   		<TextView
+    		android:id="@+id/doppelpunkt"
+    	    android:layout_width="20dip"
+    	    android:layout_height="50dip"
+    	    android:gravity="center_vertical|center_horizontal"
+    	    android:layout_centerInParent="true"
+    	    android:text=" : "
+    	    android:textAppearance="?android:attr/textAppearanceLarge" />
+    		
+        <EditText
+        	android:id="@+id/setStopWatchSeconds"
+        	android:inputType="phone"
+	    	android:maxLength="2"
+        	android:layout_width="50dip"
+        	android:layout_height="50dip" 
+        	android:layout_alignParentRight="true" >
+
+	    </EditText>
+	    
+	</RelativeLayout>
+
+</LinearLayout>

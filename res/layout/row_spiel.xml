@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:padding="4dip"
+  android:background="@drawable/tablecell66none"
+  >
+
+	<TextView android:id="@+id/rowSpielDatum"
+      android:layout_width="80dip"
+      android:layout_height="fill_parent"
+      android:gravity="center_vertical|left"
+      android:textStyle="bold"
+      android:textColor="@color/standardfarbe"
+      android:maxLines="1"
+      android:ellipsize="start"
+      android:layout_marginLeft="20dip"
+      android:textSize="14dip"
+    />
+
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	>
+    	 
+    	<TextView android:id="@+id/rowSpielHeim"
+      		android:layout_width="fill_parent"
+      		android:layout_height="33dip"
+      		android:gravity="left|bottom"
+      		android:textStyle="bold"
+      		android:textColor="@color/standardfarbe"
+      		android:maxLines="1"
+      		android:ellipsize="end"
+      		android:layout_marginLeft="10dip"
+      		android:textSize="17dip"
+    	/>
+    	
+    	<TextView android:id="@+id/rowSpielAusw"
+      		android:layout_width="fill_parent"
+      		android:layout_height="33dip"
+      		android:gravity="left|top"
+      		android:textStyle="bold"
+      		android:textColor="@color/standardfarbe"
+      		android:maxLines="1"
+      		android:ellipsize="end"
+      		android:layout_marginLeft="10dip"
+      		android:textSize="17dip"
+    	/>
+	</LinearLayout>
+
+</LinearLayout>

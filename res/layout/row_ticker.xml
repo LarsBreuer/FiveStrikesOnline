@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="64dip"
+  android:orientation="horizontal"
+  android:background="@color/hellblau"
+>
+	
+	<LinearLayout
+    	android:layout_width="16dip"
+    	android:layout_height="64dip"
+    	android:orientation="vertical"
+    >
+    
+		<View android:id="@+id/rowTickerTeamColor"
+        	android:layout_width="16dip"
+  			android:layout_height="60dip"
+  			android:background="@color/heimblau"
+    	/>
+		
+		<View 
+        	android:layout_width="16dip"
+  			android:layout_height="4dip"
+  			android:background="@android:color/white"
+    	/>
+		
+	</LinearLayout>
+    
+	<LinearLayout
+    	android:layout_width="70dip"
+    	android:layout_height="64dip"
+    	android:orientation="vertical"
+    >
+    
+	    <TextView android:id="@+id/rowTickerZeit"
+      		android:layout_width="70dip"
+      		android:layout_height="20dip"
+      		android:gravity="center"
+      		android:textColor="@color/standardfarbe"
+      		android:maxLines="1"
+      		android:ellipsize="end"
+      		android:textSize="12dip"
+    	/>
+	    
+	    <LinearLayout
+    		android:layout_width="70dip"
+    		android:layout_height="40dip"
+    		android:gravity="center"
+    	>
+    		
+			<TextView android:id="@+id/rowTickerIcon"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:gravity="center"
+				android:textStyle="bold"
+				android:textSize="17dip"
+				android:textColor="@color/standardfarbe"
+  			/>
+			
+		</LinearLayout>
+		
+	    <View 
+        	android:layout_width="70dip"
+  			android:layout_height="4dip"
+  			android:background="@android:color/white"
+    	/>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="wrap_content"
+    	android:layout_height="64dip"
+    	android:orientation="vertical"
+    	>
+    	
+    	<TextView android:id="@+id/rowTickerAktion"
+      		android:layout_width="wrap_content"
+      		android:layout_height="20dip"
+      		android:gravity="center_vertical|left"
+      		android:textColor="@color/standardfarbe"
+      		android:maxLines="1"
+      		android:ellipsize="end"
+      		android:textSize="12dip"
+    	/>
+    	
+    	<LinearLayout
+    		android:layout_width="wrap_content"
+    		android:layout_height="40dip"
+    		android:gravity="center"
+    	>
+			
+	    	<TextView android:id="@+id/rowTickerSpieler"
+      			android:layout_width="wrap_content"
+      			android:layout_height="40dip"
+      			android:gravity="center"
+		    	android:textStyle="bold"
+      			android:textColor="@color/standardfarbe"
+      			android:maxLines="1"
+      			android:ellipsize="end"
+      			android:textSize="17dip"
+    		/>
+	    	
+	    </LinearLayout>
+	    
+	    <View 
+        	android:layout_width="wrap_content"
+  			android:layout_height="4dip"
+  			android:background="@android:color/white"
+    	/>
+	
+	</LinearLayout>
+	
+</LinearLayout>

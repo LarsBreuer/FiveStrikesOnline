@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingLeft="25dp"
+	android:paddingRight="25dp"
+	android:orientation="vertical"
+	android:background="@drawable/hintergrund">
+
+	<TextView 
+	    android:text="@string/Import" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/importData"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:text="@string/importData"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />
+
+	<Button 
+        android:id="@+id/importDatabase"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:text="@string/importDatabase"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip"
+		android:layout_marginTop="15dp"
+    />
+
+	<TextView 
+	    android:text="@string/Export" 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/exportDatabase"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+		android:text="@string/exportDatabase"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />
+
+    <TextView 
+	    android:text="@string/login" 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/login"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+		android:text="@string/login"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />
+    
+
+	<Button 
+        android:id="@+id/register"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:text="@string/register"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip"
+		android:layout_marginTop="15dp"
+    />
+	
+</LinearLayout>

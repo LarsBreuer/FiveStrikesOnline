@@ -1,0 +1,553 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+	
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:background="@drawable/hintergrund"
+	android:paddingLeft="25dp"
+	android:paddingRight="25dp"
+>
+	
+	<TextView 
+		android:text="@string/einstellungen"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:gravity="center"
+		android:textColor="@color/standardfarbe"
+		android:textSize="16dip"
+		android:textStyle="bold"
+	/>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="40dip"
+    	android:orientation="horizontal"
+    >
+	
+		<CheckBox 
+	    	android:id="@+id/checkbox_spieler_eingeben" 
+        	android:layout_width="60dp"
+        	android:layout_height="40dp"
+			android:gravity="center"
+			android:onClick="onCheckboxClicked"
+		/>
+		
+		<TextView 
+			android:text="@string/spieler_eingeben"
+      		android:layout_width="wrap_content"
+      		android:layout_height="40dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+	
+	</LinearLayout>
+
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="40dip"
+    	android:orientation="horizontal"
+    >
+
+		<CheckBox 
+	    	android:id="@+id/checkbox_wurfecke_eingeben" 
+        	android:layout_width="60dp"
+        	android:layout_height="40dp"
+			android:gravity="center"
+			android:onClick="onCheckboxClicked"
+		/>
+
+		<TextView 
+			android:text="@string/wurfecke_eingeben"
+      		android:layout_width="wrap_content"
+      		android:layout_height="40dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+	
+	</LinearLayout>
+	
+	<TextView 
+		android:text="@string/notiz"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:gravity="center"
+		android:textColor="@color/standardfarbe"
+		android:textSize="16dip"
+		android:textStyle="bold"
+	/>
+	
+	<EditText
+	    android:id="@+id/notiz"
+	    android:inputType="text"
+	    android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="left|top"
+	/>
+		
+	<TextView 
+		android:text="@string/symbole"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:gravity="center"
+		android:textColor="@color/standardfarbe"
+		android:textSize="16dip"
+		android:textStyle="bold"
+	/>
+    
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_torwurf"
+			android:src="@drawable/aktion_torwurf"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_torwurf"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_fehlwurf"
+			android:src="@drawable/aktion_fehlwurf"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_fehlwurf"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_7m_tor"
+			android:src="@drawable/aktion_7m_tor"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_7m_tor"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_7m_fehlwurf"
+			android:src="@drawable/aktion_7m_fehlwurf"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_7m_fehlwurf"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_tg_tor"
+			android:src="@drawable/aktion_tg_tor"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_tg_tor"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_tg_fehlwurf"
+			android:src="@drawable/aktion_tg_fehlwurf"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_tg_fehlwurf"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_techfehl"
+			android:src="@drawable/aktion_techfehl"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_techfehl"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_gelbekarte"
+			android:src="@drawable/aktion_gelbekarte"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_gelbekarte"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_zweimin"
+			android:src="@drawable/aktion_zweimin"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_zweimin"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_zweipluszwei"
+			android:src="@drawable/aktion_zweipluszwei"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_zweipluszwei"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_rotekarte"
+			android:src="@drawable/aktion_rotekarte"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_rotekarte"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_wechsel"
+			android:src="@drawable/aktion_wechsel"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_wechsel"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_aufstellung_heim"
+			android:src="@drawable/aktion_aufstellung_heim"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_aufstellung_heim"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_aufstellung_auswaerts"
+			android:src="@drawable/aktion_aufstellung_auswaerts"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_aufstellung_auswaerts"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_auszeit_heim"
+			android:src="@drawable/aktion_auszeit_heim"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_auszeit_heim"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="70dip"
+    	android:orientation="horizontal"
+    >
+
+		<ImageView
+			android:id="@+id/aktion_auszeit_auswaerts"
+			android:src="@drawable/aktion_auszeit_auswaerts"
+			android:layout_width="wrap_content" 
+			android:layout_height="50dip" 
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_margin="10dip"
+		>
+
+		</ImageView>
+
+		<TextView 
+			android:text="@string/aktion_auszeit_auswaerts"
+      		android:layout_width="wrap_content"
+      		android:layout_height="70dip"
+      		android:gravity="left|center_vertical"
+      		android:textColor="@color/standardfarbe"
+      		android:textSize="12dip"
+    	/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

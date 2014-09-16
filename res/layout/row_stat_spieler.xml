@@ -1,0 +1,32 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout3"
+	android:layout_width="fill_parent"
+	android:background="@drawable/tablecell44none"
+	android:layout_height="44dp"
+	android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+	android:gravity="center_vertical"
+	android:orientation="horizontal">
+ 
+    <TextView
+        android:id="@+id/spielerBezeichnung"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical|left"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:textSize="15dip" />
+        
+    <TextView
+  		android:id="@+id/spielerWert"
+  		android:layout_width="0dp"
+  		android:layout_height="44dp"
+  		android:layout_weight="1"
+  		android:textColor="@color/standardfarbe"
+  		android:textStyle="bold"
+    	android:gravity="center_vertical|left"
+    	android:textSize="15dip" />    
+      	
+</LinearLayout>

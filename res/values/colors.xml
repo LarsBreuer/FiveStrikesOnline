@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="standardfarbe">#437597</color>
+    <color name="hellblau">#E0E7E9</color>
+    <color name="transparent">#00000000</color>
+    <color name="heimblau">#404895</color>
+    <color name="auswrot">#CB061D</color>
+</resources>

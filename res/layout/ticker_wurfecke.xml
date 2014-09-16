@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/hintergrund">
+
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:paddingLeft="5dp"
+  android:paddingRight="5dp"
+  android:orientation="vertical"
+  >
+      
+	<TextView 
+	    android:text="@string/tickerAktionWurfecke" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+        
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+    > 
+        
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/tor_ol"
+        		android:background="@drawable/tor_ol"
+        		android:layout_width="73dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/tor_om"
+        		android:background="@drawable/tor_om"
+        		android:layout_width="73dp"
+        		android:layout_height="50dp" 
+				android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/tor_or"
+        		android:background="@drawable/tor_or"
+        		android:layout_width="73dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginLeft="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        
+    	</TableRow>
+
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/tor_ml"
+        		android:background="@drawable/tor_ml"
+        		android:layout_width="73dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/tor_mm"
+        		android:background="@drawable/tor_mm"
+        		android:layout_width="73dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/tor_mr"
+        		android:background="@drawable/tor_mr"
+        		android:layout_width="73dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginLeft="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        
+    	</TableRow>
+    	
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/tor_ul"
+        		android:background="@drawable/tor_ul"
+        		android:layout_width="73dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/tor_um"
+        		android:background="@drawable/tor_um"
+        		android:layout_width="73dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/tor_ur"
+        		android:background="@drawable/tor_ur"
+        		android:layout_width="73dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginLeft="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        
+    	</TableRow>
+    	
+    </TableLayout>
+    
+    <TextView 
+	    android:text="@string/tickerAktionWurfposition" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+    > 
+        
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/feld_1_1"
+        		android:background="@drawable/feld_1_1"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_2_1"
+        		android:background="@drawable/feld_2_1"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_3_1"
+        		android:background="@drawable/feld_3_1"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+
+        	<Button 
+        		android:id="@+id/feld_4_1"
+        		android:background="@drawable/feld_4_1"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_5_1"
+        		android:background="@drawable/feld_5_1"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+    	</TableRow>
+
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/feld_1_2"
+        		android:background="@drawable/feld_1_2"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_2_2"
+        		android:background="@drawable/feld_2_2"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_3_2"
+        		android:background="@drawable/feld_3_2"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+
+        	<Button 
+        		android:id="@+id/feld_4_2"
+        		android:background="@drawable/feld_4_2"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_5_2"
+        		android:background="@drawable/feld_5_2"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+    	</TableRow>
+    	
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/feld_1_3"
+        		android:background="@drawable/feld_1_3"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_2_3"
+        		android:background="@drawable/feld_2_3"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_3_3"
+        		android:background="@drawable/feld_3_3"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+
+        	<Button 
+        		android:id="@+id/feld_4_3"
+        		android:background="@drawable/feld_4_3"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_5_3"
+        		android:background="@drawable/feld_5_3"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+    	</TableRow>
+    	
+        <TableRow
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal"
+        >
+        	
+        	<Button 
+        		android:id="@+id/feld_1_4"
+        		android:background="@drawable/feld_1_4"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_2_4"
+        		android:background="@drawable/feld_2_4"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_3_4"
+        		android:background="@drawable/feld_3_4"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+
+        	<Button 
+        		android:id="@+id/feld_4_4"
+        		android:background="@drawable/feld_4_4"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginRight="3dp"
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+        	<Button 
+        		android:id="@+id/feld_5_4"
+        		android:background="@drawable/feld_5_4"
+        		android:layout_width="58dp"
+        		android:layout_height="50dp" 
+        		android:layout_marginTop="3dp"
+        		android:textColor="@color/standardfarbe"
+        		android:gravity="center_horizontal|center_vertical"
+    		/>
+        	
+    	</TableRow>
+    	
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>

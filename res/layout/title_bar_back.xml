@@ -1,0 +1,43 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:background="@drawable/navileiste"
+	android:layout_height="50dp"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"
+	android:gravity="center_vertical"
+	android:orientation="horizontal">
+ 
+    <Button
+ 		android:id="@+id/back_button"
+  		android:layout_width="30dp"
+  		android:layout_height="30dp"
+  		android:background="@drawable/pfeillinks"
+    	android:layout_centerVertical="true" />    
+    
+    <Button
+  		android:layout_width="30dp"
+  		android:layout_height="30dp"
+  		android:background="@drawable/add"
+  		android:id="@+id/plus_button"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" 
+        android:visibility="invisible" />
+      	
+    <TextView
+        android:id="@+id/titleBackText"
+        android:layout_toRightOf="@+id/back_button"
+        android:layout_toLeftOf="@+id/plus_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" 
+        android:shadowColor="@android:color/black"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1" />
+      	
+</RelativeLayout>

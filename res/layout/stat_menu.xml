@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:paddingLeft="25dp"
+  android:paddingRight="25dp"
+  android:orientation="vertical"
+  android:background="@drawable/hintergrund">
+  
+	<TextView 
+	    android:text="@string/statSpielstatistk" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/statSpielstatistik"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:text="@string/spielDatum"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />	
+
+    <Button 
+        android:id="@+id/statNotiz"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:text="@string/notiz"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip"
+        android:layout_marginTop="15dp" 
+    />	
+    	
+	<TextView 
+	    android:text="@string/statTorschuetzen" 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/statTorschuetzenHeim"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />
+    
+	<Button 
+        android:id="@+id/statTorschuetzenAusw"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+        android:layout_marginTop="15dp"
+    />	
+	
+    <TextView 
+	    android:text="@string/statSpieler" 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/statSpielerHeim"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />	
+
+    <Button 
+        android:id="@+id/statSpielerAusw"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip"
+        android:layout_marginTop="15dp"
+    />
+    
+    <TextView 
+	    android:text="@string/statExport" 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="left|bottom"
+        android:textColor="@color/standardfarbe"
+        android:textStyle="bold"
+        android:textSize="17dip" 
+	/>
+
+    <Button 
+        android:id="@+id/statExportCSV"
+        android:background="@drawable/grossblau"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:text="@string/statExportCSV"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="15dip" 
+    />	
+
+</LinearLayout>

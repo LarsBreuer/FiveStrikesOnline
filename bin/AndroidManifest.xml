@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.fivestrikes.online"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application android:label="@string/app_name" android:icon="@drawable/iconsmall">
+        
+        <activity
+            android:name=".FiveStrikesProActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".MannschaftActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">
+        </activity>
+
+        <!-- Neu=> Neue Activities -->
+        
+        <activity 
+		    android:name=".MannschaftServerSearchActivity"
+		    android:windowSoftInputMode="stateHidden"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">
+        </activity>
+
+        <activity 
+		    android:name=".MannschaftServerActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">
+        </activity>
+        
+        <activity 
+		    android:name=".LoginActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">
+        </activity>
+        
+        <activity 
+		    android:name=".RegisterActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">
+        </activity>
+        
+        <!-- Neu=> Neue Activities Ende -->
+        
+		<activity 
+		    android:name=".MannschaftEditActivity"
+		    android:windowSoftInputMode="stateHidden"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">
+        </activity>
+        
+        <activity 
+            android:name=".SpielerActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">         
+        </activity>
+        
+		<activity 
+		    android:name=".SpielerEditActivity"
+		    android:windowSoftInputMode="stateHidden"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">  
+        </activity>
+        
+		<activity 
+		    android:name=".SpielActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme"> 
+        </activity>
+        
+		<activity 
+		    android:name=".SpielEditActivity"
+		    android:windowSoftInputMode="stateHidden"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">
+        </activity>
+        
+		<activity 
+		    android:name=".MannschaftAuswahlActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme"> 
+        </activity>
+        
+		<activity 
+		    android:name=".TickerActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/noShadow">
+        </activity>
+        
+		<activity 
+		    android:name=".TickerAktionActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">
+        </activity>
+        
+		<activity 
+		    android:name=".TickerSpielerActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/noShadow"> 
+        </activity>
+        
+		<activity 
+		    android:name=".TickerSpielerAuswechselungActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme"> 
+        </activity>
+
+		<activity 
+		    android:name=".TickerSpielerStartaufstellungActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme"> 
+        </activity>
+
+		<activity 
+		    android:name=".TickerSpielerWurfeckeActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme"> 
+        </activity>
+
+		<activity 
+		    android:name=".TickerSpielerFehlwurfActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme"> 
+        </activity>
+        
+		<activity 
+		    android:name=".TickerEditActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">  
+        </activity>
+
+		<activity 
+		    android:name=".TickerEditAktionActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">  
+        </activity>
+        
+		<activity 
+		    android:name=".TickerEditSpielerActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">  
+        </activity>
+        
+		<activity 
+		    android:name=".TickerEditWurfeckeActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">  
+        </activity>
+        
+		<activity 
+		    android:name=".TickerEditWurfpositionActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">  
+        </activity>
+        
+		<activity 
+            android:name=".StatActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">         
+        </activity>
+        
+        <activity 
+            android:name=".StatMenuActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">         
+        </activity>
+
+		<activity 
+            android:name=".StatSpielActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">          
+        </activity>	
+        
+		<activity 
+            android:name=".StatToreActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">          
+        </activity>	
+        
+		<activity 
+            android:name=".StatSpielerActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">          
+        </activity>
+        
+		<activity 
+            android:name=".StatSpielerStatActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">          
+        </activity>
+        
+		<activity 
+            android:name=".StatSpielerWurfeckeActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme">          
+        </activity>	
+        
+		<activity 
+            android:name=".TabMenuActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/noShadow">          
+        </activity>	
+        
+		<activity 
+            android:name=".TabListActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/noShadow">          
+        </activity>	
+        
+		<activity 
+            android:name=".TabStatisticActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/noShadow">          
+        </activity>	
+        
+		<activity 
+            android:name=".TabTickerSpielerHeimActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/noShadow">          
+        </activity>	
+        
+		<activity 
+            android:name=".TabTickerSpielerAuswActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/noShadow">          
+        </activity>	
+        
+		<activity 
+            android:name=".TickerInfoActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/noShadow">          
+        </activity>
+		
+		<activity 
+            android:name=".ImportExportActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/noShadow">          
+        </activity>
+        
+		<activity 
+            android:name=".StatNotizActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/noShadow">          
+        </activity>
+		
+    </application>
+
+</manifest>

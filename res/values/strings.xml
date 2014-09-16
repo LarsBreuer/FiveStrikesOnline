@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Neu=> Start der neuen Bezeichnungen -->
+    <string name="mannschaftErklaerung">Gib einen Ortsnamen an, z.B. \'Gummersbach\'.</string>
+    <string name="suche">Suche</string>
+    <string name="serverYes">Mannschaft suchen</string>
+    <string name="serverNo">Mannschaft lokal anlegen</string>  
+    <string name="server">Server</string>  
+    <string name="login">Login</string>  
+    <string name="register">Register</string>
+    <string name="user_email">eMail</string>
+    <string name="user_password">Passwort</string>
+    <string name="user_name">Username</string>
+    <string name="user_password_confirmation">Passwort bestätigen</string>
+    <!-- Neu=> Ende der neuen Bezeichnungen -->
+    
+    <string name="hello">Hello World, FiveStrikesProActivity!</string>
+    <string name="app_name">FiveStrikesOnline</string>
+    <string name="speichern">Speichern</string>
+    <string name="loeschen">Löschen</string>
+	<string name="info">Info</string>
+    <string name="ja">Ja</string>
+    <string name="nein">Nein</string>
+	<string name="einstellungen">Einstellungen</string>
+	<string name="spieler_eingeben">Eingabe von Spielern</string>
+	<string name="wurfecke_eingeben">Eingabe der Wurfecke</string>
+	<string name="symbole">Symbole</string>
+	<string name="notiz">Notizen</string>
+	<string name="Import">Import</string>
+	<string name="Export">Export</string>
+	<string name="okay">OK</string>
+	<string name="importData">Daten aus Lite-Version einfügen</string>
+	<string name="importDatabase">Datenbank importieren</string>
+	<string name="exportDatabase">Datenbank exportieren</string>
+	<string name="importexportTitel">Import/Export</string>
+	<string name="aktion_torwurf">Torwurf</string>
+	<string name="aktion_fehlwurf">Fehlwurf</string>
+	<string name="aktion_7m_fehlwurf">7m Fehlwurf</string>
+	<string name="aktion_7m_tor">7m Tor</string>
+	<string name="aktion_tg_tor">Tempogegenstoss Tor</string>
+	<string name="aktion_tg_fehlwurf">Tempogegenstoss Fehlwurf</string>
+	<string name="aktion_gelbekarte">Gelbe Karte</string>
+	<string name="aktion_zweimin">Zwei Minuten</string>
+	<string name="aktion_zweipluszwei">Zwei mal zwei Minuten</string>
+	<string name="aktion_rotekarte">Rote Karte</string>
+	<string name="aktion_wechsel">Spielerwechsel</string>
+	<string name="aktion_techfehl">Technischer Fehler</string>
+	<string name="aktion_aufstellung_heim">Aufstellung Heimmannschaft</string>
+	<string name="aktion_aufstellung_auswaerts">Aufstellung Auswärtsmannschaft</string>
+	<string name="aktion_auszeit_heim">Auszeit Heimmannschaft</string>
+	<string name="aktion_auszeit_auswaerts">Auszeit Auswärtsmannschaft</string>
+	<string name="importDatabaseComplete">Die Datenbank wurde erfolgreich importiert.</string>
+	<string name="importDatabaseError">Der Import der Datenbank ist fehlgeschlagen. Schaue bitte nach, ob der Ordner \'sdcard\' eine Datei mit dem Namen \'fivestrikespro.db\' enthält.</string>
+	<string name="exportDatabaseComplete">Die Datenbank wurde erfolgreich in den Ordner \'sdcard\' exportiert.</string>
+	<string name="exportDatabaseError">Der Export der Datenbank ist fehlgeschlagen.</string>
+	<string name="anwurfMsgboxTitel">Anwurf</string>
+	<string name="anwurfMsgboxText">Bitte wähle aus, welche Mannschaft Anwurf hat.</string>
+	<string name="anwurfHeim">Heim</string>
+	<string name="anwurfAusw">Auswärts</string>
+	
+    <!-- Übersicht starts -->   
+    <string name="uebersichtTitel">Übersicht</string>
+    <string name="uebersichtMannschaft">Mannschaft</string>
+    <string name="uebersichtSpiel">Spiel</string>
+    <string name="uebersichtStatistik">Statistik</string>
+    <string name="uebersichtInfo">Info</string>
+    <string name="uebersichtSchnellesSpiel">Schnelles Spiel</string>
+    <string name="uebersichtWebseite">Webseite</string>
+    <string name="uebersichtDownload">Im-/Export</string>
+    <string name="infoMsgboxTitel">Handbuch öffnen</string>
+	<string name="infoMsgboxText">Dies öffnet das Handuch zu dieser App im PDF-Format. Internetzugang ist erforderlich.
+	    						  Vorgang fortsetzen?</string>
+	<string name="webMsgboxTitel">Five Strikes öffnen</string>
+	<string name="webMsgboxText">Dies öffnet die Webseite Five Strikes mit mehr Informationen, Neuigkeiten und Information zur 
+	    						 Handball-App Five Strikes. Vorgang fortsetzen?</string>
+	<string name="importMsgboxTitel">Import</string>
+	<string name="importMsgboxText">Durch den Import werden Daten zu Mannschaften und Spielern aus der Lite-Version in die Pro-Version importiert. Vorheriger 
+	    							Export aus der Pro-Version erforderlich. ACHTUNG !!!!!!! Sämtliche Daten (auch Spiele) aus der Pro-Version werden gelöscht!!!!!!! 
+	    							Sollen die Daten importiert werden? Dies kann einen Moment dauern.</string>
+	<string name="importDatabaseMsgboxText">Durch den Import wird eine zuvor gespeicherte Datenbank importiert. Vorheriger 
+	    							Export einer Five Strikes-Datenabnk ist erforderlich. ACHTUNG !!!!!!! Sämtliche vorhandenen 
+	    							Daten werden gelöscht!!!!!!! Eine Wiederherstellung ist nicht möglich. 
+	    							Sollen die Daten importiert werden? </string>
+	<string name="importFertigMsgboxTitel">Import abgeschlossen</string>
+	<string name="importFertigMsgboxText">Der Import wurde erfolgreich abgeschlossen.</string>	
+	<string name="importFehlMsgboxTitel">Import fehlgeschlagen</string>
+	<string name="importFehlMsgboxText">Der Import der Datenbank ist fehlgeschlagen. Es wurde keine importfähige Datei gefunden. Gehe in der Five Strikes 
+	    								Lite App in der Übersicht auf Export, um eine Datei zu erstellen.</string>					
+	    						  
+    <!-- Übersicht ends -->   
+
+    <!-- Mannschaft starts -->   
+	<string name="mannschaftTitel">Mannschaften</string>
+    <string name="mannschaftEditTitel">Mannschaft editieren</string>  
+    <string name="mannschaftName">Mannschaftsname</string>
+    <string name="mannschaftKuerzel">Mannschaftskürzel</string>
+    <string name="mannschaftSpielerVerwalten">Spieler verwalten</string>
+    <string name="mannschaftSpielerImport">Spieler importieren</string>
+    <string name="mannschaftMsgboxTitel">Löschen</string>
+	<string name="mannschaftMsgboxText">Möchtest Du die Mannschaft wirklich löschen?</string>
+	<string name="mannschaftDelMsgboxTitel">Löschen nicht möglich</string>
+	<string name="mannschaftDelMsgboxText">Es existiert noch mindestens ein Spiel, in dem diese Mannschaft noch aktiv ist. 
+	    								   Löschen ist daher nicht möglich. Lösche das / die betreffenden Spiel(e) und 
+	    								   versuche es erneut.</string>
+	<string name="teamEditInfoMsgboxTitel">Info</string>
+	<string name="teamEditInfoMsgboxText">Du kannst Spielerdaten über eine CSV-Tabelle importieren. Erstelle dazu eine Tabelle ohne 
+	    								  Überschrift. In die erste Spalte die Rückennummer, in die zweite Spalte den Spielernamen 
+	    								  und in die dritte Spalte die Position: TW für Torwart, LA für Linksaußen, RL für 
+	    								  Rückraum links, RM für Rückraum mitte, RR für Rückraum rechts, RA für Rechtsaußen, 
+	    								  KL für Kreisläufer. Speicher die Datei dann in dem Ordner sdcard/Download/ unter dem Namen Player.csv ab. 
+	    								  Eine Beispieldatei findest Du auf der Webseite www.fivestrikes.de 
+	    								  im Bereich Download. Gehe dann 
+	    								  in der App auf Spieler importieren um den Import durchzuführen.</string>
+	<string name="teamEditFertigMsgboxTitel">Import</string>
+	<string name="teamEditFertigMsgboxText">Der Import der Spielerdaten wurde erfolgreich durchgeführt.</string>
+	<string name="teamEditFehlerMsgboxTitel">Import</string>
+	<string name="teamEditFehlerMsgboxText">Der Import der Spielerdaten konnte nicht durchgeführt werden. Stelle sicher, dass die 
+	    									Datei Player.csv in dem Ordner sdcard/Download/ abgespeichert ist.</string>
+    <!-- Mannschaft ends -->  
+    
+    <!-- Spieler starts -->   
+	<string name="spielerTitel">Spieler</string>
+	<string name="spielerEditTitel">Spieler editieren</string>
+	<string name="spielerName">Spielername</string>
+	<string name="spielerNummer">Rückennummer</string>
+	<string name="spielerPosition">Position</string>
+	<string name="spielerMsgboxTitel">Löschen</string>
+	<string name="spielerMsgboxText">Möchtest Du den Spieler wirklich löschen?</string>
+	<string name="spielerDelMsgboxTitel">Löschen nicht möglich</string>
+	<string name="spielerDelMsgboxText">Es existiert noch mindestens ein Spiel, in dem dieser Spieler noch aktiv ist. 
+	    								Löschen ist daher nicht möglich. Lösche das / die betreffenden Spiel(e) und 
+	    								versuche es erneut.</string>
+    <string name="positionen_prompt">Position wählen</string>
+    <string name="spielerPositionTorwart">Torwart</string>
+    <string name="spielerPositionLinksaussen">Linksaußen</string>
+    <string name="spielerPositionRueckraumLinks">Rückraum links</string>
+    <string name="spielerPositionRueckraumMitte">Rückraum mitte</string>
+    <string name="spielerPositionRueckraumRechts">Rückraum rechts</string>
+    <string name="spielerPositionRechtsaussen">Rechtsaußen</string>
+    <string name="spielerPositionKreislaeufer">Kreisläufer</string>
+    <string name="spielerPositionTorwartKurz">TW</string>
+    <string name="spielerPositionLinksaussenKurz">LA</string>
+    <string name="spielerPositionRueckraumLinksKurz">RL</string>
+    <string name="spielerPositionRueckraumMitteKurz">RM</string>
+    <string name="spielerPositionRueckraumRechtsKurz">RR</string>
+    <string name="spielerPositionRechtsaussenKurz">RA</string>
+    <string name="spielerPositionKreislaeuferKurz">KL</string>
+    <string-array name="positionen">
+        <item>Bitte auswählen</item>
+        <item>Torwart</item>
+        <item>Linksaußen</item>
+        <item>Rückraum links</item>
+        <item>Rückraum mitte</item>
+        <item>Rückraum rechts</item>
+        <item>Rechtsaußen</item>
+        <item>Kreisläufer</item>
+    </string-array>
+    <!-- Spieler ends -->  
+    
+    <!-- Spiel starts -->   
+	<string name="spielTitel">Spiele</string>
+	<string name="spielEditTitel">Spiel editieren</string>
+	<string name="spielDatum">Datum</string>	
+	<string name="spielLaenge">Halbzeitlänge</string>
+	<string name="spielHeim">Heimmannschaft</string>
+	<string name="spielHeimTeam">Heim</string>
+	<string name="spielAusw">Auswärtsmannschaft</string>
+	<string name="spielAuswTeam">Auswärts</string>
+	<string name="spielTicker">Ticker aufrufen</string>
+	<string name="mannschaftAuswahl">Mannschaft wählen</string>
+	<string name="spielMsgboxTitel">Speichern nicht möglich</string>
+	<string name="spielMsgboxText">Es sind noch nicht alle Angaben gemacht. Speichern daher nicht möglich.</string>
+	<string name="spielDelMsgboxTitel">Löschen</string>
+	<string name="spielDelMsgboxText">Möchtest Du das Spiel wirklich löschen?</string>
+	<string name="spielTeamauswahlMsgboxTitel">Auswahl nicht möglich</string>
+	<string name="spielTeamauswahlMsgboxText">Bei diesem Spiel wurden bereits Aktionen eingegeben. 
+	    									  Eine Änderung der Mannschaften ist daher nicht mehr möglich.
+	    									  Um die Mannschaft ändern zu können müssen alle Aktionen im Ticker 
+	    									  gelöscht werden.</string>
+	<string name="spielGegnerauswahlMsgboxText">Auswahl nicht möglich. Du hast diese Mannschaft schon für den 
+	    										Gegner ausgewählt</string>
+    <!-- Spiel ends -->  
+    
+    <!-- Ticker starts -->   
+	<string name="tickerTitel">Ticker</string>
+	<string name="tickerAktionTitel">Aktion</string>
+	<string name="tickerSpielerTitel">Spieler</string>
+	<!-- Hinweis: Doppelte Bezeichnungwn wie 'Fehlwurf' nur einmal verwenden -->  
+	<string name="tickerMSGBoxAktionTitel">Ballverlust</string>
+	<string name="tickerMSGBoxAktionNachricht">Führte die Aktion zu einem Ballverlust?</string>
+	<string name="tickerMSGBoxJa">Ja</string>
+	<string name="tickerMSGBoxNein">Nein</string>
+	<string name="tickerMSGBoxSpielzeit">Spielzeit:</string>
+	<string name="tickerMSGBoxEinstellen">Einstellen</string>
+	<string name="tickerDelMsgboxTitel">Löschen</string>
+	<string name="tickerDelMsgboxText">Möchtest Du die Tickermeldung wirklich löschen?</string>
+	<string name="tickerAktionTor">Tor</string> 
+	<string name="tickerAktionFehlwurf">Fehlwurf</string> 
+	<string name="tickerAktionTechnischerFehler">Technischer Fehler</string>
+	<string name="tickerAktion7mTor">7m Tor</string>
+	<string name="tickerAktion7mFehlwurf">7m Fehlwurf</string>
+	<string name="tickerAktionTempogegenstossTor">TG Tor</string>
+	<string name="tickerAktionTempogegenstossFehlwurf">TG Fehlwurf</string>
+	<string name="tickerAktionWechsel">Wechsel</string>
+	<string name="tickerAktionEinwechselung">Einwechselung</string>
+	<string name="tickerAktionAuswechselung">Auswechselung</string>
+	<string name="tickerAktionStartaufstellung">Startaufstellung</string>
+	<string name="tickerAktionStartaufstellung2Halbzeit">Startaufstellung 2. Halbzeit</string>
+	<string name="tickerAktionZweiMinuten">Zwei Minuten</string>
+	<string name="tickerAktionGelbeKarte">Gelbe Karte</string>
+	<string name="tickerAktionZweiMalZwei">2x2 Minuten</string>
+	<string name="tickerAktionRoteKarte">Rote Karte</string> 
+	<string name="tickerAktionAuszeit">Auszeit</string> 
+	<string name="tickerAktionZurueck">zurueck</string> 
+	<string name="tickerInfoMsgboxTitel">Info</string>
+	<string name="tickerInfoMsgboxText">Button Mannschaftskürzel =>\nWechsel Ballbesitz.\nButton Spielergebnis =>\nNeue Aktion eingeben.\nUhr =>\nKurzer Klick: Start und Stopp / 2 Sekunden drücken: Uhr stellen.\nTickerfelder =>\nAktion editieren.</string>
+	<string name="tickerAktionWurfecke">Wurfecke</string>
+	<string name="tickerAktionWurfposition">Wurfposition</string>
+	<string name="tickerAktionTorwartGegentor">Torwart Gegentor</string>
+	<string name="tickerAktionTorwart7mGegentor">7m Gegentor</string>
+	<string name="tickerAktionTorwartTGGegentor">TG Gegentor</string>
+	<string name="tickerAktionTorwartGehalten">Torwart gehalten</string>
+	<string name="tickerAktionTorwart7mGehalten">7m gehalten</string>
+	<string name="tickerAktionTorwartTGGehalten">TG gehalten</string>
+	<string name="tickerAktionBallverlust">Ballverlust?</string>
+	<string name="tickerEditTitel">Ticker editieren</string> 
+	<string name="tickerEditSpielzeit">Spielzeit</string>
+	<string name="tickerEditAktion">Aktion</string> 
+	<string name="tickerEditSpieler">Spieler</string> 
+	<string name="tickerEditMsgboxTitel">Ändern nicht möglich</string>
+	<string name="tickerEditMsgboxText">Das Ändern des Ballbesitzes ist nicht möglich. 
+	    								Bei der Aktion Ballbesitz sind folgende Änderungen 
+	    								möglich: Einstellung der Spielzeit und löschen.</string>
+	<string name="tickerEditWurfeckeMsgboxTitel">Ändern nicht möglich</string>
+	<string name="tickerEditWurfeckeMsgboxText">Das Ändern der Wurfeccke ist bei dieser Aktion nicht möglich.</string>
+	<string name="tickerEditWurfpositionWaehlen">Wurfposition wählen</string>
+	<string name="wurfeckeOOLL">Oben links daneben</string>
+	<string name="wurfeckeOOL">Oben links daneben</string>
+	<string name="wurfeckeOOM">Oben mitte daneben</string>
+	<string name="wurfeckeOOR">Oben rechts daneben</string>
+	<string name="wurfeckeOORR">Oben rechts daneben</string>
+	<string name="wurfeckeOLL">Oben links daneben</string>
+	<string name="wurfeckeOL">Oben links</string>
+	<string name="wurfeckeOM">Oben links mitte</string>
+	<string name="wurfeckeOR">Oben rechts</string>
+	<string name="wurfeckeORR">Oben rechts daneben</string>
+	<string name="wurfeckeMLL">Mitte links daneben</string>
+	<string name="wurfeckeML">Mitte links</string>
+	<string name="wurfeckeMM">Mitte mitte</string>
+	<string name="wurfeckeMR">Mitte rechts</string>
+	<string name="wurfeckeMRR">Mitte rechts daneben</string>
+	<string name="wurfeckeULL">Unten links daneben</string>
+	<string name="wurfeckeUL">Unten links</string>
+	<string name="wurfeckeUM">Unten mitte</string>
+	<string name="wurfeckeUR">Unten rechts</string>
+	<string name="wurfeckeURR">Unten rechts daneben</string> 						
+	<!-- Ticker ends --> 
+    
+	<!-- Statistik starts -->   
+    <string name="statTitel">Statistik</string>
+    <string name="statMenuTitel">Statistiken</string>
+    <string name="statSpielstatistk">Spielstatistik</string>
+    <string name="statTorschuetzen">Torschützenliste</string>
+    <string name="statSpieler">Spielerstatistik</string>
+    <string name="statExport">Export</string>
+    <string name="statExportCSV">Export in CSV-Datei</string>
+    <string name="statSpielTitel">Spielstatistik</string>
+    <string name="statBezeichnungTore">Tore</string>
+    <string name="statBezeichnungTorEffektivitaet">Tor Effektivität</string>
+    <string name="statBezeichnung7mEffektivitaet">7m Effektivität</string>
+    <string name="statBezeichnungTGEffektivitaet">TG Effektivität</string>
+    <string name="statBezeichnungGehalten">Gehalten</string>
+    <string name="statBezeichnungWuerfe">Würfe</string>
+    <string name="statBezeichnungHalbzeit">Halbzeit</string>
+    <string name="statBezeichnungChancen">Chancen</string>
+    <string name="statBezeichnungEffektivitaet">Effektivität</string>
+    <string name="statBezeichnungTechFehler">Tech. Fehler</string>
+    <string name="statBezeichnungAngriffe">Angriffe</string>
+    <string name="statBezeichnungBallbesitz">Ballbesitz</string>
+    <string name="statBezeichnungZeitAngriff">Zeit / Angriff</string>
+    <string name="statBezeichnungSpielfilm">Spielfilm</string>
+    <string name="statBezeichnungMinuten">Minuten</string>
+    <string name="statBezeichnungFuehrung">Führung</string>
+    <string name="statBezeichnungUnentschieden">Unentschieden</string>
+    <string name="statBezeichnungStrafen">Strafen</string>
+    <string name="statBezeichnungGelbeKarten">Gelbe Karten</string>
+    <string name="statBezeichnungZweiMinuten">Zwei Minuten</string>
+    <string name="statBezeichnungZweiMalZwei">2x2 Minuten</string>
+    <string name="statBezeichnungRoteKarten">Rote Karten</string>
+    <string name="statBezeichnungUeberzahl">Überzahl</string>
+    <string name="statBezeichnungToreUeberzahl">Tore Überzahl</string>
+    <string name="statBezeichnungToreUnterzahl">Tore Unterzahl</string>
+    <string name="statBezeichnungName">Name</string>
+    <string name="statBezeichnungToreKurz">T</string>
+    <string name="statBezeichnungWuerfeKurz">W</string>
+    <string name="statBezeichnungEffektivitaetKurz">E</string>
+    <string name="statBezeichnungQuote">Quote</string>
+    <string name="statBezeichnungTechnischeFehler">Technische Fehler</string>
+    <string name="statBezeichnungGelbeKarte">Gelbe Karte</string>
+    <string name="statBezeichnungRoteKarte">Rote Karte</string>
+    <string name="statSpielerGesamtstatistik">Gesamtstatistik</string>
+    <string name="statSpielerstatistik">Spielerstatistik</string>
+    <string name="statSpielerWurfecke">Wurfecke</string>
+    <string name="csvFehlerMsgboxTitel">Fehler</string>
+	<string name="csvFehlerMsgboxText">Es ist ein Fehler aufgetreten. Der Export der CSV-Datei konnte nicht durchgeführt werden.
+	    Stelle sicher, dass der Ordner sdcard nicht schreibgeschützt ist.</string>	
+	<string name="csvFertigMsgboxTitel">CSV-Export erfolgreich</string>
+	<string name="csvFertigMsgboxText">Der Export der CSV-Datei wurde erfolgreich durchgeführt. Du findest die Datei in dem Ordner sdcard.</string>	
+    <!-- Statistik ends -->  
+
+	<string name="aktionen">Aktionen</string>
+	<string name="ticker">Ticker</string>
+	<string name="statistik">Statistik</string>
+	
+	<string name="description">Image</string>
+	<string name="tickerWarnmeldungTorwartEinsatz">Kein Gegnertorwart eingesetzt.</string>
+	
+
+</resources>
